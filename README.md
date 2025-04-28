@@ -36,8 +36,20 @@ Make sure the following packages are installed:
 
 ## Installation
 
-Clone the repository:
+
 
 ```bash
 git clone https://github.com/yourusername/federated-lora-nli.git
 cd federated-lora-nli
+```bash
+
+Clone the repository:
+# For Linux/MacOS
+```python -m venv venv
+source venv/bin/activate
+```
+# For Windows
+```python -m venv venv
+venv\Scripts\activate
+```
+
