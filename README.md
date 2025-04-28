@@ -34,16 +34,17 @@ Make sure the following packages are installed:
 - **Recommended**: NVIDIA GPU with CUDA support
 - **Minimum**: 16GB RAM (for CPU execution)
 
-## Installation
 
 
 
+##Clone the repository:
 ```bash
 git clone https://github.com/yourusername/federated-lora-nli.git
 cd federated-lora-nli
+```
 
 
-Clone the repository:
+
 # For Linux/MacOS
 ```python -m venv venv
 source venv/bin/activate
@@ -52,4 +53,14 @@ source venv/bin/activate
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
+##Install Libraries
+```bash
+pip install -r requirements.txt
+```
+
+##Run the model 
+```bash
+python federated_lora_nli.py
+```
 
